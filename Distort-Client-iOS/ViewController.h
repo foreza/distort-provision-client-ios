@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <NSURLConnectionDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *inputDistortSID;
+@property (weak, nonatomic) IBOutlet UIButton *buttonDistortCall;
+@property (weak, nonatomic) IBOutlet UILabel *textDistortInfo;
 
 
 @end
