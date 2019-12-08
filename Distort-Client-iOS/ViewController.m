@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Constants.h"
 
 @interface ViewController ()
 
@@ -14,8 +15,8 @@
 
 @implementation ViewController
 
-    NSMutableData *_responseData;           // Response data from the delegate
-    NSString * baseApiURL = @"http://107.170.192.117:8989/api/distort/";
+    NSMutableData *_responseData;               // Response data from the delegate
+    NSString * baseApiURL = kbaseAPIEndpoint;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -45,6 +46,7 @@
     pasteboard.string = [self.textDistortInfo text];                // Get this from the clipboard
     
     // Open the settings app. We're not allowed to open the wifi page directly
+    // TODO: Update this since we're using a deprecated method
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
     
     // Clear the view.

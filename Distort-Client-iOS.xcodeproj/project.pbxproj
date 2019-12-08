@@ -26,6 +26,7 @@
 		134DA00C239C4BC4005E7675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		134DA00E239C4BC4005E7675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		134DA00F239C4BC4005E7675 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13C6B3A2239CC7CB00610B1E /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 				134DA00B239C4BC4005E7675 /* LaunchScreen.storyboard */,
 				134DA00E239C4BC4005E7675 /* Info.plist */,
 				134DA00F239C4BC4005E7675 /* main.m */,
+				13C6B3A2239CC7CB00610B1E /* Constants.h */,
 			);
 			path = "Distort-Client-iOS";
 			sourceTree = "<group>";
